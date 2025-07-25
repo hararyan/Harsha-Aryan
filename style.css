@@ -132,18 +132,19 @@ h1 {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    align-items: center;
 }
 
 .image-container img {
     width: 400px;
     height: auto;
     border-radius: 8px;
+    
 }
 
 .image-container video {
     border-radius: 30px;
-    width: 60%;
-    height: 40%;
+    width: 50%;
     object-fit: cover;
     border: 1px solid #121212;
 }
@@ -152,12 +153,43 @@ h1 {
     margin-top: 4rem;
     text-align: center;
 }
+.posters{
+
+}
+h2{
+    opacity: 0.8;
+    font-size: 0.5rem;
+}
+
 
 @media(max-width:1000px) {
     .clip {
         align-items: center;
         justify-content: center;
         width: 100%;
-        margin: 1rem;
+    }
+    h1{
+        font-size: 1.4rem;
+        color: red;
+        opacity: 0.8;
+    }
+     .projects h2{
+        color: red;
+        font-size: 1.3rem;
+    }
+    .projects p{
+        font-size: 1rem;
+    }
+    .git{
+        padding: 0.4rem;
+    }
+    a{
+        font-size: 1rem;
+    }
+    .clips{
+        margin-top: 3rem;
+    }
+    .image-container video{
+        width: 100%;
     }
 }
